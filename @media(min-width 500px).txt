@@ -1,0 +1,20 @@
+@media(min-width: 500px):
+A partir de un ancho mínimo de 500px, el tamaño de fuente de los elementos con la clase .s1 aumenta a 1.3em para mejorar la legibilidad en dispositivos con pantallas más grandes.
+
+
+@media(min-width: 700px):
+Cuando el ancho mínimo de la ventana es de al menos 700px, el tamaño de fuente de los elementos con la clase .s1 se incrementa a 1.5em para una mejor experiencia de lectura en pantallas más grandes.
+Además, el color del elemento <h1> cambia a rojo para destacarlo.
+
+    
+@media(min-width: 1000px):
+Si el ancho mínimo de la ventana es de 1000px o más, el tamaño de fuente de los elementos con la clase .s1 aumenta a 2em y su color se cambia a rojo.
+El fondo de los elementos .s1 se transforma en verde.
+Se aplican ajustes de estilo adicionales a la barra de navegación (nav), que incluyen un mayor relleno, un tamaño de fuente más grande, y la transformación de texto a mayúsculas.
+El color del elemento <h1> cambia a un tono de azul verdoso (cadetblue).
+
+
+@media(min-width: 1100px):
+Cuando el ancho mínimo de la ventana es de al menos 1100px, se aplican cambios adicionales.
+El texto dentro de la barra de navegación (nav) se alinea al centro.
+Los terceros elementos de alguna lista (identificados por :nth-child(3)) cambian su color. Primero a azulvioleta, luego a un tono específico de rojo (rgb(99, 52, 52)), lo que puede afectar elementos específicos en el HTML.
